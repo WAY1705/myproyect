@@ -1,0 +1,70 @@
+/* general */
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* body de todas las paginas */
+body {
+    background-image: url('../img/img0.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Verdana;
+}
+
+/* encabezado */
+.header{
+  background-color: #530e90;
+}
+/* logo del footer y header */
+.img {
+  padding: 1% 5% 1%;
+}
+
+/* footer */
+footer {
+  background-image: url('../img/footer.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  padding: 2% 1%;
+  display: flex;
+}
+
+.footer {
+  margin: 1%;
+  padding: 2% 1% 2%;
+  text-align: justify;
+  border-left: 2px solid #ffffff;
+}
+
+.footer a img {
+  width: 40px;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.title {
+  color: #ffffff;
+  padding: 10px;
+  margin: 0;
+}
+
+.cabeza {
+  display: block;
+  background-color: #530e90;
+  width: 60%;
+  margin: 1% 0 1% 0;
+  padding: 0 1%;
+}
+
+.footer-rosa {
+  width: 100%;
+  background-color: #a01cad;
+  padding: 2% 0;
+}
