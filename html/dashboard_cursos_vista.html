@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Portal_Web_DCTI/dashboard/cursos/vista_previa</title>
+  <link rel="stylesheet" href="../css/css.css">
+  <link rel="stylesheet" href="../css/menu_dashboard.css">
+  <link rel="stylesheet" href="../css/dashboard_carrusel.css">
+  <link rel="stylesheet" href="../css/dashboard_vista.css">
+</head>
+<body>
+  <header class="header_h">
+    <nav class="nav_h">
+      <label for="menu_h" class="label_h">
+        <img src="../img/menu.png" alt="menu_h" class="list-icon">
+      </label>
+      <input type="checkbox" name="hamburguesa" id="menu_h">
+      <ul class="ul_h">
+        <li class="li_h"><a href="" class="a_h"><img src="../img/flecha.png" alt="flecha" class="icon_h">Resumen General</a></li>
+        <li class="li_h"><a href="" class="a_h"><img src="../img/usuarios2.png" alt="usuario" class="icon_h">Gestión de Usuarios</a></li>
+        <li class="li_h"><a href="" class="a_h"><img src="../img/home.png" alt="home" class="icon_h">Inicio</a></li>
+        <li class="li_h"><a href="dashboard_mision.html" class="a_h"><img src="../img/cuadrados.png" alt="cuadrados" class="icon_h">DCTI</a></li>
+        <li class="li_h"><a href="" class="a_h"><img src="../img/esquema.png" alt="esquema" class="icon_h">Ejes de Gestión</a></li>
+        <li class="li_h"><a href="" class="a_h"><img src="../img/proyectos.png" alt="proyectos" class="icon_h">Proyectos</a></li>
+        <li class="li_h"><a href="" class="a_h"><img src="../img/importancia.png" alt="importancia" class="icon_h">Noticias</a></li>
+        <li>
+          <label for="menu_c" class="a_h li_h l_c"><img src="../img/gorro.png" alt="gorro" class="icon_h">Cursos</label>
+          <input type="checkbox" name="menu_c" id="menu_c">
+          <ul class="ul_c">
+            <li class="li_c"><a href="dashboard_cursos_carrusel.html" class="a_c">Carrusel</a></li>
+            <li class="li_c"><a href="dashboard_cursos_vista.html" class="a_c" aria-current="location">Vista previa</a></li>
+            <li class="li_c"><a href="dashboard_cursos_anadir.html" class="a_c">Añadir cursos</a></li>
+          </ul>
+        </li>
+        <li class="li_h"><a href="" class="a_h"><img src="../img/cubo.png" alt="cubo" class="icon_h">Recursos Educativos</a></li>
+        <li class="li_h"><a href="" class="a_h"><img src="../img/mensaje.png" alt="mensaje" class="icon_h">Contactos</a></li>
+        <li class="li_h"><a href="" class="a_h"><img src="../img/reporte.png" alt="reporte" class="icon_h">Reportes</a></li>
+      </ul>
+      <a href=""><img src="../img/usuario.png" alt="inicio" class="user_img" width="40px"></a>
+    </nav>
+  </header>
+  <main>
+    <div class="content-d">
+  <form action="" enctype="multipart/form-data">
+    <!-- Área de carga de imágenes -->
+    <div class="image-upload-area">
+      <div class="main-image-preview"></div>
+      <label for="file-input" class="image-upload-button" id="upload-button">+</label>
+      <input type="file" id="file-input" class="hidden" accept="image/*" onchange="previewImage(this)">
+      <div class="image-preview-container">
+        <div class="image-preview"></div>
+        <div class="image-preview"></div>
+        <div class="image-preview"></div>
+        <div class="image-preview"></div>
+        <div class="image-preview"></div>
+        <div class="image-preview"></div>
+      </div>
+    </div>
+    <!-- Título -->
+    <input type="text" class="title-input"/>
+    <!-- Botones -->
+    <div class="button-container">
+      <button type="button" class="delete-button">Borrar</button>
+      <button type="submit" class="publish-button">Publicar</button>
+    </div>
+  </form>
+</div>
+
+  </main>
+  <script src="../js/dashboard_vista.js"></script>
+</body>
+</html>

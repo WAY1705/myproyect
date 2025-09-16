@@ -1,0 +1,57 @@
+.formularios {
+  width: 75%;
+  margin-left: 25%;
+  margin-top: 2%;
+}
+.h2 {
+  background-color: #0656c5;
+  color: #dbe1ec;
+  padding: 5px 20px;
+  margin-bottom: 1%;
+  width: 25%;
+}
+.f_d {
+  margin-bottom: 1%;
+  display: flex;
+  align-items: end;
+}
+.t_d {
+  width: 50%;
+  background-color: #c1d5f0;
+  border: 0;
+  border-radius: 10px;
+  padding: 5px;
+}
+.t_d:focus {
+  outline: none;
+}
+.s_d {
+  width: 10%;
+  height: 30px;
+  margin-left: 20px;
+  color: #dbe1ec;
+  background-color: #20ad1c;
+  border: 0;
+  font-size: 110%;
+  transition: all .3s;
+  cursor: pointer;
+}
+.s_d:hover {
+  background-color: #2bc327;
+  color: #ffffff;
+}
+.r_d {
+  width: 10%;
+  height: 30px;
+  margin-left: 20px;
+  color: #dbe1ec;
+  background-color: #a01cad;
+  border: 0;
+  font-size: 110%;
+  transition: all .3s;
+  cursor: pointer;
+}
+.r_d:hover {
+  background-color: #b126be;
+  color: #ffffff;
+}
